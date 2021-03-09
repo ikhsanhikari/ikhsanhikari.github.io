@@ -1,0 +1,188 @@
+
+.editButton {
+    right: 10px;
+    top: 12px;
+	position: absolute;
+	color: black;
+}
+
+.addButton {
+    /* right: 100px; */
+    top: 12px;
+	position: absolute;
+	color: black;
+}
+
+.editItemButton {
+    right: 10px;
+	position: absolute;
+	color: black;
+}
+
+.deleteItemButton{
+	/* top:10px; */
+	right: 40px;
+	position: absolute;
+	color: black;
+}
+
+.editProfileButton {
+    right: 10px;
+    top: 210px;
+    position: absolute;
+}
+
+.deleteButton {
+    right: 10px;
+    top: 12px;
+    position: absolute;
+}
+
+.dropdownProfile {
+    right: 90px;
+    top: 210px;
+    position: absolute;
+}
+
+.bgGeneral {
+    /* background-color: #00BFFF; */
+    background-color: #ffffff;
+	/* color: white; */
+	color: black;
+}
+
+.bgGeneralNav {
+    background-color: #00BFFF;
+    /* background-color: black; */
+    color: white;
+}
+
+.btnBgGeneral{
+	background-color: #00BFFF;
+    /* background-color: black; */
+    color: white;
+}
+
+.cardColor{
+	background-color: pink;
+}
+
+.followButton {
+    right: 5px;
+    top: 40px;
+    position: absolute;
+}
+
+.text-description {
+    font-size: 12px;
+}
+
+.text-description-2 {
+    font-size: 14px;
+}
+
+.speech-bubble {
+	position: relative;
+	background: #53d6fd;
+	border-radius: .4em;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 8px solid transparent;
+	border-right-color: #53d6fd;
+	border-left: 0;
+	border-bottom: 0;
+	margin-top: -4px;
+	margin-left: -8px;
+}
+
+.speech-bubble2 {
+	position: relative;
+	background: #ffffff;
+	border-radius: .4em;
+}
+
+.speech-bubble2:after {
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 8px solid transparent;
+	border-left-color: #ffffff;
+	border-right: 0;
+	border-bottom: 0;
+	margin-top: -4px;
+	margin-right: -8px;
+}
+
+
+.block {
+	overflow: hidden;
+	/* background: #333; */
+	/* padding: 1rem; */
+	max-width: 20rem;
+	margin: 0 0 1rem 0;
+  }
+  .block img {
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin: 0 1rem 0 0;
+  }
+  .block h4 {
+	font-weight: 500;
+	margin: 0 0 0.5rem 0;
+	font-size: 17px;
+
+  }
+
+  .block-comment {
+	overflow: hidden;
+	/* background: #333; */
+	padding: 1rem;
+	max-width: 20rem;
+	margin: 0 0 1rem 0;
+  }
+  .block-comment img {
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin: 0 1rem 0 0;
+  }
+  .block-comment h4 {
+	font-weight: 500;
+	margin: 0 0 0.5rem 0;
+	font-size: 14px;
+
+  }
+  .block-comment h4 p {
+	font-weight: 500;
+	margin: 0 0 0.5rem 0;
+	font-size: 12px;
+
+  }
+  
+  
+  .media-object {
+	background: #222;
+	color: white;
+	font-weight: 300;
+	font-family: 'Roboto', sans-serif;
+	font-size: 85%;
+	line-height: 1.4;
+	margin: 0;
+	padding: 1rem;
+  }
+
+  a{
+	  text-decoration: none;
+	  color: black;
+  }
